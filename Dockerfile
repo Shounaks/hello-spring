@@ -1,5 +1,5 @@
 # Use an official OpenJDK runtime as a parent image
-FROM openjdk:11-jre-slim
+FROM openjdk:17-ea-3-jdk-slim
 LABEL author = "Shounak Bhalerao"
 
 # Set the working directory in the container
