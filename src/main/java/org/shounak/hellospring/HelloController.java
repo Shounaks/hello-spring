@@ -38,7 +38,7 @@ public class HelloController {
                         <div class="max-w-md">
                             <h1 class="text-5xl font-bold">Vulnerable Server</h1>
                             <p class="py-6">
-                                This application was created to ace Secure Coding (SIT738). 😎
+                                Hi Shounak, I hope this project gets a High Distinction 🙃
                             </p>
                             <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl min-w-full">
                                 <form class="card-body" action="" method="post">
