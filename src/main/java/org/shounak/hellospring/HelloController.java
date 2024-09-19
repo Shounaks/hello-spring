@@ -16,23 +16,21 @@ public class HelloController {
                     <title>Getting Started: Serving Web Content</title>
                     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
                     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css"/>
+                    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
                     <script src="https://cdn.tailwindcss.com"></script>
                 </head>
-                <body>
-                <!--<form action="auth" method="post">-->
+                <body onmousedown="party.confetti(this)">
+                <!--<form action="" method="post">-->
                 <!--    <label for="username" id="usernameLabel">Username:</label>-->
                 <!--    <input type="text" name="username" id="username"/>-->
                 <!--    <br/><br/>-->
-                                
                 <!--    <label for="password" id="passwordLabel">Password:</label>-->
                 <!--    <input type="password" name="password" id="password"/>-->
                 <!--    <br/><br/>-->
-                                
                 <!--    <button type="submit">Login</button>-->
                 <!--    <button type="reset">Reset</button>-->
                 <!--</form>-->
                 <!--<p style="color: red" th:text="${errorMessage}"></p>-->
-                                
                 <!--SECRET HACKER MODE CODE-->
                 <!--<div class="hero bg-base-200 min-h-screen" style="background: url('/uploads/758a.gif');background-size: cover;">-->
                 <div class="hero bg-base-200 min-h-screen">
@@ -43,7 +41,7 @@ public class HelloController {
                                 This application was created to ace Secure Coding (SIT738). 😎
                             </p>
                             <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl min-w-full">
-                                <form class="card-body" action="auth" method="post">
+                                <form class="card-body" action="" method="post">
                                     <div class="form-control">
                                         <div class="label"><span class="label-text-alt">Username</span></div>
                                         <label class="label input input-bordered flex items-center gap-2" for="username">
@@ -94,7 +92,6 @@ public class HelloController {
                 </div>
                 </body>
                 </html>
-                                
                 """);
     }
 }
